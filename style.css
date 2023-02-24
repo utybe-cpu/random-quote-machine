@@ -93,4 +93,43 @@ body {
   #new-quote:hover {
     background-color: #293241;
   }
+  @media screen and (max-width: 768px) {
+    body {
+      padding: 2rem;
+    }
+  
+    #quote-box {
+      max-width: 30rem;
+    }
+  
+    .quote-card {
+      width: 100%;
+      padding: 1.5rem;
+    }
+  
+    .quote-card__text {
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+  
+    .quote-card__author {
+      font-size: 1rem;
+    }
+  
+    .quote-card__buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .quote-card__buttons > button {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    .fa-twitter-square {
+      font-size: 1.5rem;
+    }
+  }
+  
   
