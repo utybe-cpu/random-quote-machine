@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Machine</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="quote-box">
+      <div class="quote-card">
+        <div class="quote-card__content">
+          <div class="quote-card__text" id="text"></div>
+          <div class="quote-card__author" id="author"></div>
+        </div>
+        <div class="quote-card__actions">
+          <button class="btn btn-primary" id="new-quote">New Quote</button>
+          <a href="twitter.com/intent/tweet" class="btn btn-secondary" id="tweet-quote">
+            <i class="fa fa-twitter" aria-hidden="true"></i> Tweet Quote
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
