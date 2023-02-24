@@ -131,5 +131,39 @@ body {
       font-size: 1.5rem;
     }
   }
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+    
+    .quote-card {
+      width: 100%;
+      padding: 1rem;
+    }
+    
+    .quote-card__content {
+      margin-bottom: 1rem;
+    }
+    
+    .quote-card__text {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+    
+    .quote-card__author {
+      font-size: 1rem;
+    }
+    
+    #new-quote {
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
+    }
+    
+    #tweet-quote {
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
   
   
